@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <title>Mangas</title>
+</head>
+<body class="fondo">
+    <header>
+        <div>
+            <nav class="barra">
+                <div>
+                 <a href="../index.html"><img class="logo" src="Imagenes/manga-logo.png" alt=""></a>
+                 
+                 <button class="nav-boton" onclick="desplegar()">Menu</button>
+                 
+                </div> 
+                <div>
+                 <a href="Mangas.html" class="navE desp">Inicio</a>
+                 <a href="Biblioteca.html" class="navE desp">Biblioteca</a>
+                 <a href="#" class="navE desp">En emsion</a>
+                 <a href="Favoritos.html" class="navE desp">Favoritos </a>
+                 <a href="../inicio.html" class="navE desp">Animes </a>
+                </div>
+             </nav>
+        </div>
+    </header>
+
+    <div id="menu" class="Menu">
+        <ul class="Menu2">
+            <li><a class="Menlaces" href="Mangas.html">Inicio</a></li>
+            <li><a class="Menlaces" href="Biblioteca.html">Biblioteca</a></li>
+            <li><a class="Menlaces" href="Favoritos.html">Favoritos</a></li>
+            <li><a class="Menlaces" href="../inicio.html">Animes</a></li>
+        </ul>
+    </div>
+
+    <section>
+
+        <article class="informacionAnime">
+            <div class="portadaLista">
+                <img id="PortadaAnime" class="imagenPortada" src="" alt="">
+            </div>
+            <div class="informacionGeneral">
+                <p id="TituloAnime"></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>Sinopsis</p>
+                <hr>
+                <br>
+                <p id="SinopsisAnime">
+                </p>
+                <br>
+                <br>
+                <p>Generos</p>
+                <hr>
+                <br>
+                <p>Acción Aventura Comedia</p>
+            </div>
+        </article>
+
+        <article>
+            <div class="NovedadesMenu">
+                <h2> 
+                    Capitulos
+                </h2>
+            </div>
+
+            <div class="NovedadesContenido">
+                
+                <div class="BlockEnLinea" >
+                    <a id="Cap1" href="paginas.html"><h2>Capitulo 1</h2></a>
+                </div>
+                
+                <div class="BlockEnLinea">   
+                    <a id="Cap2" href="paginas.html"><h2>Capitulo 2</h2></a>                  
+                </div>
+
+                <div class="BlockEnLinea">  
+                    <a id="Cap3" href="paginas.html"><h2>Capitulo 3</h2></a>          
+                </div>
+
+                <div class="BlockEnLinea">    
+                    <a id="Cap4" href="paginas.html"><h2>Capitulo 4</h2></a>           
+                </div>
+
+                <div class="BlockEnLinea">
+                    <a id="Cap5" href="paginas.html"><h2>Capitulo 5</h2></a>
+                </div>
+
+        </article>
+            
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <a href="../index.html"><img class="LogoDiseño" src="../imagenes/Logo.png" alt="Logotipo"></a>
+            <a href="../index.html"><h2 class="BlockEnLinea2">anime-manga</h1></a>
+        </div>
+        <div class="footer-contenedor">
+          <div class="footer-enlaces">
+            <h3>Enlaces Directos</h2>
+            <ul>
+                <li><a href="../inicio.html">Animes</a></li>
+                <li><a href="Mangas.html">Mangas</a></li>
+                <li><a href="../noticias.html">Noticias</a></li>
+                <li><a href="../loguin.html">Cuenta</a></li>
+            </ul>
+          </div>
+          <div class="footer-redes">
+            <h3>Redes Sociales</h2>
+            <ul>
+                <li><a href="#"><i >Facebook</i></a></li>
+                <li><a href="#"><i >Twitter</i></a></li>
+                <li><a href="#"><i >Instagram</i></a></li>
+                <li><a href="#"><i >Youtube</i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-abajo">
+          <p>&copy; 2023 anime-manga. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
+</body>
+<script src="../JS/CargarListaManga.js"></script>
+</html>
