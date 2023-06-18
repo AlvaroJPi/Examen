@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AnimeManga - Inicio</title>
+    <link rel="stylesheet" href="estilos.css">  
+</head>
+
+<body>
+    <header>
+        <div class="LogoDiv">
+            <a href="index.html"><img class="LogoDiseño" src="imagenes/Logo.png" alt="Logotipo"></a>
+        </div>
+
+        <a href="index.html"><h1 class="BlockEnLinea">anime-manga</h1></a>
+    
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="novedades.html">Explorar</a></li>
+                <!-- <li><a href="categorias.htm">Categorias</a></li> -->
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="HtmlManga/Mangas.html">Mangas</a></li>
+                <button class="barra" onclick="desplegar()">Menu</button>
+                <!-- 
+                <li><button id="boton">Manga</button></li>
+                <li><button id="boton2">Anime</button></li>
+                -->  
+            </ul>
+        </nav>
+
+        <div class="Loguin">
+            <a href="loguin.html">
+                <img class="LogoDiseño" src="imagenes/Perfil.png">
+            </a>
+        </div>
+
+    </header>
+
+    <div id="menu" class="Menu">
+        <ul class="Menu2">
+            <li><a class="Menlaces" href="inicio.html">Inicio</a></li>
+            <li><a class="Menlaces" href="novedades.html">Explorar</a></li>
+            <!-- <li><a href="categorias.htm">Categorias</a></li> -->
+            <li><a class="Menlaces" href="noticias.html">Noticias</a></li>
+            <li><a class="Menlaces" href="HtmlManga/Mangas.html">Mangas</a></li>
+            <li><a class="Menlaces" href="loguin.html">Iniciar Sesion</a></li>
+        </ul>
+    </div>
+
+    <section>
+        <article class="reproductor">  
+            <video id="Reproductor" class="video" src="" autoplay controls></video>
+        </article>
+
+        <article class="informacionvideo">
+            <h2 id="ReproductorTitulo" class="nombre"></h2>
+            <br>
+            <h2 id="Episodeo" class="episodeo"></h2>
+        </article>
+            
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <a href="index.html"><img class="LogoDiseño" src="imagenes/Logo.png" alt="Logotipo"></a>
+            <a href="index.html"><h1 class="BlockEnLinea">anime-manga</h1></a>
+        </div>
+        <div class="footer-contenedor">
+          <div class="footer-enlaces">
+            <h3>Enlaces Directos</h2>
+            <ul>
+                <li><a href="inicio.html">Animes</a></li>
+                <li><a href="HtmlManga/Mangas.html">Mangas</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="loguin.html">Cuenta</a></li>
+            </ul>
+          </div>
+          <div class="footer-redes">
+            <h3>Redes Sociales</h2>
+            <ul>
+                <li><a href="#"><i >Facebook</i></a></li>
+                <li><a href="#"><i >Twitter</i></a></li>
+                <li><a href="#"><i >Instagram</i></a></li>
+                <li><a href="#"><i >Youtube</i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-abajo">
+          <p>&copy; 2023 anime-manga. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
+</body>
+<script src="JS/CargarCapitulo.js"></script>
+</html>

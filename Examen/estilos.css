@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+/*Encabezado*/
+header{
+    background: #2E2E2E;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra{
+    width: 100px;
+    height: 20px;
+    background: #2E2E2E;
+    display: none;
+}
+
+.Menu{
+    margin-top: 40px;
+    background: #fff;
+    color: #000000;
+    width: 100%;
+    display: none;
+}
+
+.Menu2{
+    margin-top: 40px;
+    background: #fff;
+    color: #000000;
+    width: 30%;
+}
+
+.Menlaces{
+    color: #000000;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/*Estilo del Logo*/
+.LogoDiseño{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.LogoDiv{
+    width: 45px;
+    height: 30px;
+    margin: 5px 0px 20px 20px;
+    display: inline-block;
+}
+
+.Loguin{
+    float: right;
+    width: 50px;
+    height: 30px;
+    margin: 15px 20px 0px 20px;
+}
+
+body{
+    background: #000000;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+nav{
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+.BlockEnLinea{
+    display: inline-block;
+}
+
+h1{
+    color: #F47521;
+    font-size: 25px ;
+}
+
+/*Novedades */
+
+.NovedadesMenu{
+    margin: 120px 140px 0px 140px;
+    font-size: 20px;
+}
+
+.NovedadesContenido{
+    margin: 60px 130px 0px 130px;
+}
+
+.ItemPortada{
+    margin: 10px 10px 10px 10px;
+    width: 150px;
+    height: 225px;
+}
+
+.ItemInformacion{
+    margin: 0px 10px 10px 10px;
+    font-size: 15px;
+    width: 150px;
+}
+
+.ItemHora{
+    margin: 0px 0px 40px 10px;
+    color: #808080;
+    font-size: 15px;
+    width: 150px;
+}
+
+/*Noticias*/
+
+.ItemPresentacion{
+    margin: 20px 10px 10px 0px;
+    width: 680px;
+    height: 380px;
+}
+
+.ItemNoticia{
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.ItemArticulo{
+    margin: 90px 140px 0px 140px;
+    border: 2px solid #fff;
+}
+
+.NoticiaMenu{
+    margin: 20px 140px 0px 140px;
+    font-size: 20px;
+}
+
+/*Categorias*/
+
+.ItemContenedorCategorias{
+    margin: 60px 250px 20px 250px;
+}
+
+.ItemCategoria{
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    width: 130px;
+}
+
+/*Loguin*/
+
+.ItemArticuloLoguin{
+    margin: 100px 440px 0px 440px;
+    border: 1px solid #fff;
+    height: 300px;
+}
+
+.ItemLoguin{
+    margin: 50px 0px 20px 70px;
+}
+
+.textoU{
+    color: #000000;
+    font-size: 20px;
+    margin: 0px 0px 0px 45px;
+}
+
+.textoC{
+    color: #000000;
+    font-size: 20px;
+    margin: 0px 0px 0px 20px;
+}
+
+.label{
+    font-size: 20px;
+}
+
+.boton{
+    color: #000000;
+    font-size: 20px;
+    margin: 20px 0px 0px 120px;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    text-align: center;
+    color: #F47521;
+    margin-bottom: 20px;
+}
+
+.anime{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.manga{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.animeI{
+    border-radius: 50%;
+    width: 400px;
+    height: 300px;
+    margin-left: 140px;  
+}
+
+/* Reproductor */
+
+.reproductor{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.video{
+    width: 100%;
+    height: 400px;
+}
+
+.informacionvideo{
+    margin-top: 40px;
+    padding-left: 150px;
+    width: 50%;
+}
+
+.nombre{
+    color: #F47521;
+    font-size: 20px;
+}
+
+.episodeo{
+    font-size: 24px;
+}
+
+/* Lista de capitulos*/
+
+.informacionAnime{
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.portadaLista{
+    display: inline-block;
+    width: 30%;
+}
+
+.informacionGeneral{
+    display: inline-block;
+    width: 70%;
+    margin: 100px 100px 100px 25px;
+}
+
+.imagenPortada{
+    border: 2px solid #F47521;
+    border-radius: 2%;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 300px;
+    height: 450px;
+}
+
+/* Footer */
+
+.footer{
+    background: #2E2E2E;
+    margin-top: 50px;
+}
+
+.footer-logo{
+    padding-top: 20px;
+}
+
+.footer-contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-enlaces{
+    margin-top: 40px;
+    width: 10%;
+    position: relative;
+    left: 20%;
+}
+
+.footer-redes{
+    margin-top: 40px;
+    width: 10%;
+    position: relative;
+    right: 20%;
+    color: red;
+}
+
+.footer-abajo{
+    padding: 20px 15px;
+}
+
+h3{
+    color: #F47521;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* media querys */
+
+@media screen and (max-width: 900px) {
+    /* Estilos para pantallas de hasta 900px de ancho */
+    
+    /* index */
+    
+    .anime{
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    
+    .manga{
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    
+    .animeI{
+        width: 200px;
+        height: 150px;
+        margin-left: 20px;  
+    }
+
+    /* Header */
+    header{
+        height: 40px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    .LogoDiseño{
+        margin-top: 2px;
+        width: 35px;
+        height: 20px;
+    }
+
+    nav ul{
+        visibility: hidden;
+    }
+
+    .Loguin{
+        visibility: hidden;
+    }
+
+    .barra{
+        visibility: visible;
+        display: inline-block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+
+    /*Seccion*/
+    h2{
+        font-size: 20px;
+    }
+
+    .BlockEnLinea{
+        margin-top: 5px;
+    }
+
+    .NovedadesMenu{
+        margin: 60px 70px 0px 70px;
+        font-size: 18px;
+    }
+
+    .NovedadesContenido{
+        margin: 20px 60px 0px 60px;
+    }
+
+    .ItemInformacion{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .ItemHora{
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    /* Loguin */
+
+    .ItemArticuloLoguin{
+        margin: 100px 0px 0px 40px;
+        border: 1px solid #fff;
+        height: 300px;
+        width: 400px;
+    }
+
+    .ItemLoguin{
+        margin: 50px 0px 20px 20px;
+    }
+    
+    .textoU{
+        color: #000000;
+        font-size: 20px;
+        margin: 0px 0px 0px 45px;
+    }
+    
+    .textoC{
+        color: #000000;
+        font-size: 20px;
+        margin: 0px 0px 0px 20px;
+    }
+    
+    .label{
+        font-size: 20px;
+    }
+    
+    .boton{
+        color: #000000;
+        font-size: 20px;
+        margin: 20px 0px 0px 120px;
+    }
+
+    /*Noticias*/
+
+    .ItemPresentacion{
+        margin: 20px 10px 10px 0px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .ItemNoticia{
+        font-size: 16px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .ItemArticulo{
+        margin: 90px 50px 0px 50px;
+        border: 2px solid #fff;
+    }
+
+    .NoticiaMenu{
+        margin: 20px 40px 0px 40px;
+        font-size: 20px;
+    }
+
+    /* Lista */
+
+    .informacionAnime{
+        display: flex;
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .informacionGeneral{
+        margin: 50px 20px 10px 40px;
+    }
+    
+    .imagenPortada{
+        margin-left: 10px;
+        margin-top: 50px;
+        width: 150px;
+        height: 200px;
+    }
+
+    /* Reproductor */
+
+    .reproductor{
+        height: 300px;
+        margin-top: 30px;
+    }
+    
+    .video{
+        height: 300px;
+    }
+    
+    .informacionvideo{
+        margin-top: 10px;
+        padding-left: 20px;
+        width: 50%;
+    }
+    
+    .nombre{
+        color: #F47521;
+        font-size: 16px;
+    }
+    
+    .episodeo{
+        font-size: 14px;
+    }
+  }
+    
